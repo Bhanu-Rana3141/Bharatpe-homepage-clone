@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+ 
+/* NAVBAR */
+.navbar {    
+    position: fixed;
+    width: 100%;
+    z-index: 1000;  
+    top: 0;
+    background-color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #8B97AA;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+#logo {
+    position: relative;
+    right: 150px;    
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links a {
+    margin-left: 40px;
+    color: #010101;
+    font-weight: 700;
+}
+
+.login-button {
+    position: relative;
+    left: 130px;
+    background-color: white;
+    border: 2px solid #2B7BFF;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+
+.login-button a {
+    color: #2B7BFF;
+    font-weight: 600;
+}
+
+/* FRONT PAGE */
+
+.front-page {
+    margin-top: 130px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#front-page-img {
+    position: relative;
+    left: 60px;
+}
+
+.moto-1 {
+    position: relative;
+    top: 20px;
+}
+
+.moto-1 h3 {
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.moto-1-para {
+    position: relative;
+    right: 45px;
+    bottom: 10px;
+    line-height: 10px;
+    color: #707070;
+}
+
+.moto-1-button {
+    font-size: 18px;
+    padding: 12px 50px;
+    border-radius: 10px;
+    border: 1px solid #8B97AA;
+    background-color: #fff;
+}
+
+.moto-1-button a {
+    color: #010101;
+    font-weight: 700;
+}
+
+/* ABOUT US */
+
+.about-us {
+    height: 500px;
+    background-color: #010101;
+    color: #FFFFFF;
+}
+
+.about-us-heading {
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-us-images {
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-para {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.about-us {
+    margin-bottom: 50px;
+}
+
+/* WHY BHARATPE */
+
+.why-bharatpe-heading {
+    text-align: center;
+    font-size: 25px;
+}
+
+.why-bharatpe-heading-para {
+   margin-top: 20px; 
+   text-align: center;
+   margin-bottom: 40px;
+   font-size: 16px;
+}
+
+.why-bharatpe {
+    display: flex;
+    justify-content: center;
+}
+
+.why-bharatpe-text p {
+    text-align: justify;
+    line-height: 10px;
+    font-size: 16px;
+}
+
+.why-bharatpe {
+    margin-bottom: 100px;
+}
+
+/* MERCHANT OFFERINGS */
+
+.merchant-offerings {
+    height: 850px;
+    background-color: #8B97AA;
+}
+
+.merchant-offerings-heading {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 36px;
+    margin-bottom: 100px;
+    color: #010101;
+}
+
+.merchant-offerings-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.payment-options {
+    height: 60px;
+    width: 340px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.payment-options a {
+    padding: 0px 15px;
+    color: #3c3c3b;
+}
+
+.payment-modes {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment-modes-img-1, .payment-modes-img-2 {
+    height: 450px;
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.img1, .img2 {
+    margin: 20px 0px 0px 24px;
+    border-radius: 15px;
+}
+
+.img1-heading, .img2-heading {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 30px;
+}
+
+.img1-para, .img2-para {
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
+}
+
+.img1-para a , .img2-para a {
+    color: #2B7BFF;
+    font-weight: 700;
+}
+
+.img1-para a:hover , .img2-para a:hover {
+    text-decoration: underline;
+}
+
+/* CONSUMER OFFERINGS */
+.consumer-offerings-heading {
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.consumer-offerings {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    right: 80px;
+}
+
+.postpe-img {
+    position: relative;
+    top: 40px;
+}
+
+.consumer-offerings-span {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+/* MERCHANT STORIES */
+
+.merchant-stories-heading {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.merchant-stories-videos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+iframe {
+    margin-top: 70px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.merchant-stories-videos h3 {
+    font-size: 25px;
+}
+
+.merchant-stories-videos h3, p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.residence {
+    color: #707070;
+}
+
+.merchant-offerings-parent-button {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.merchant-offerings-child-button {
+    padding: 8px 20px;
+    background-color: #fff;
+    border: 1px solid #2B7BFF;
+    border-radius: 5px;
+}
+
+.merchant-offerings-child-button a {
+    color: #2B7BFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* RECENT NEWS */
+
+.news-heading {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.news-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.news-1, .news-2, .news-3 {
+    height: 350px;
+    width: 32%;
+    background-color: fff;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+
+.news-section-para-1 {
+    font-size: 20px; 
+    font-weight: 700; 
+    position: relative; 
+    right: 30px; 
+    line-height: 30px; 
+    text-align: left;
+}
+
+.news-section-para-2 {
+    color: #8B97AA;
+    line-height: 25px;
+    text-align: left;
+    position: relative; 
+    right: 30px; 
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 150px;
+    height: 600px;
+    background-color: #010101;
+    color: #D0D0D0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part-1 {
+    width: 35%;
+    margin-top: 100px;
+}
+
+.part-2 {
+    width: 20%;
+    margin-top: 100px;
+}
+
+.part-3 {
+    width: 20%;
+    margin-top: 100px;
+}
+
+.part-4 {
+    width: 15%;
+    margin-top: 100px;
+}
+
+.footer-para {
+    text-align: left;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-button {
+    margin-top: 15px;
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.footer-button a {
+    color: #010101;
+    font-weight: 700;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #D0D0D0;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    height: 40px;
+    background-color: #010101;
+}
